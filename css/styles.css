@@ -1,0 +1,130 @@
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.box1{
+    background-color: rgb(167, 197, 137);
+    height: 300px;
+    float: left;
+
+}
+
+.box2{
+    background-color: rgb(129, 129, 199);
+    height: 500px;
+    float: left;
+
+}
+
+.box3{
+    background-color: rgb(212, 32, 203);
+    height: 500px;
+    float: left;
+}
+
+.box4{
+    background-color: rgb(50, 39, 150);
+    height: 500px;
+    float: left;
+}
+
+.box5{
+    background-color: rgb(43, 122, 56);
+    height: 200px;
+    float: left;
+}
+.box6{
+    background-color: rgb(156, 150, 209);
+    height: 200px;
+    float: left;
+}
+.box7{
+    background-color: rgb(150, 12, 46);
+    height: 200px;
+    float: left;
+}
+.box8{
+    background-color: rgb(126, 112, 247);
+    height: 200px;
+    float: left;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 1000px) {
+    .box1{
+        margin-bottom: 10px;
+    }
+
+    .box2{ 
+        background-image: url(https://wallpapercave.com/wp/wp5475495.jpg);
+    }
+    .box3{ 
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH-IKH9NS4YLt6yZWQJKU1HJQZa-DABbXyHRkDtnz5IZhc_-9YIxyYwdYzi-O8RecbPB8&usqp=CAU);
+    }
+
+    .box4{ 
+        background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/3840x2160-Anime-Scenery-Wallpaper-HD.jpg);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 800px) {
+.box1{  
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.box2{
+    width: 100%;
+    height: 100px;
+    background-image: url(https://wallpapercave.com/wp/wp12909347.jpg);
+}
+.box3{
+    width: 100%;
+    height: 100px;
+    background-image: url(https://wallpapercave.com/wp/wp6661289.jpg);
+
+}
+.box4{
+    width: 100%;
+    height: 100px;
+    background-image: url(https://i.pinimg.com/736x/8b/79/4c/8b794c0d1001c60eaf017291a89577af.jpg);
+
+}
+
+.box5{
+    width: 50%;
+    height: 100px;
+}
+.box6{
+    width: 50%;
+    height: 100px;
+}
+.box7{
+    width: 50%;
+    height: 100px;
+}
+.box8{
+    width: 50%;
+    height: 100px;
+}
+
+
+}
+
+
+
+
+
